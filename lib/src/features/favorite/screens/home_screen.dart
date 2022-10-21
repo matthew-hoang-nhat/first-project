@@ -1,9 +1,10 @@
 import 'package:english_words/english_words.dart';
-import 'package:first_project/src/cubits/favorite_cubit.dart';
+import 'package:first_project/src/features/favorite/cubit/favorite_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import '../utils/app_pages.dart';
+
+import '../../../config/routes/app_pages.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);

@@ -1,12 +1,12 @@
-import 'package:first_project/src/utils/app_pages.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
-import '../blocs/app_bloc.dart';
+import 'app_pages.dart';
 
 class AppRouter {
-  const AppRouter(this._appBloc);
-  final AppBloc _appBloc;
+  // const AppRouter(this._appBloc);
+  const AppRouter();
+  // final AppBloc _appBloc;
 
   GoRouter get router => GoRouter(
         initialLocation: AppPages.home,
